@@ -9,7 +9,7 @@ export default function Home() {
         <Image
           src="/IndyYou.png"
           alt="Hire Me"
-          className="dark:invert"
+          className="dark:invert animate-fadeIn"
           width={700}
           height={1080}
         />
