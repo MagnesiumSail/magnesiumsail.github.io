@@ -2,32 +2,37 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between back bg-white">
 
+      <div className="grid-rows-3">
+        <div>
+          <Image
+            src="/IndyYou.png"
+            alt="Hire Me"
+            className="animate-fadeIn"
+            width={700}
+            height={1080}
+          />
+        </div>
 
-      <div>
-        <Image
-          src="/IndyYou.png"
-          alt="Hire Me"
-          className="dark:invert animate-fadeIn"
-          width={700}
-          height={1080}
-        />
+        <h1 className="flex text-9xl outlined-text-red">
+          I WANT
+          <p className="whitespace-pre text-red-800 outlined-text-black"> YOU</p>
+        </h1>
+        <h2 className="text-9xl outlined-text-red">
+          TO HIRE ME!
+        </h2>
+
       </div>
 
-      <h1 className="flex text-9xl outlined-text-red">
-        I WANT 
-        <p className="whitespace-pre text-red-800 outlined-text-black"> YOU</p>
-      </h1>
-      <h2 className="text-9xl outlined-text-red"> 
-        TO HIRE ME!
-      </h2>
 
 
 
 
 
-
+    </main>
+  );
+}
 
 
       {/*<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -136,6 +141,3 @@ export default function Home() {
         </a>
       </div>
       */}
-    </main>
-  );
-}
