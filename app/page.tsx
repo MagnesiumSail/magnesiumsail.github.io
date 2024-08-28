@@ -1,36 +1,39 @@
 import Image from "next/image";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between back bg-white">
-
-      <div className="grid-rows-3">
-        <div>
-          <Image
-            src="/IndyYou.png"
-            alt="Hire Me"
-            className="animate-fadeIn"
-            width={700}
-            height={1080}
-          />
+    <div className="flex flex-col min-h-screen bg-slate-700">
+      {/* Full-width Header with centered content */}
+      <header className="w-full bg-gray-800">
+        <div className="container mx-auto px-8">
+          <Header />
         </div>
+      </header>
 
-        <h1 className="flex text-9xl outlined-text-red">
-          I WANT
-          <p className="whitespace-pre text-red-800 outlined-text-black"> YOU</p>
-        </h1>
-        <h2 className="text-9xl outlined-text-red">
-          TO HIRE ME!
-        </h2>
+      {/* Colored Buffers and Centered Content */}
+      <main className="flex-grow flex justify-center bg-gray-200 place-self-center w-3/4">
+        <div className="container mx-auto px-8 py-1 bg-slate-600">
+          <div className="grid-rows-3 mx-auto my-auto text-center align-middle self-center place-self-center content-center">
+            <div className="flex justify-center">
+              <Image
+                src="/IndyYou.png"
+                alt="Hire Me"
+                className="animate-fadeIn"
+                width={500}
+                height={1080}
+              />
+            </div>
 
-      </div>
-
-
-
-
-
-
-    </main>
+            <h1 className="flex outlined-text-red flex justify-center text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+              I WANT
+              <p className="whitespace-pre text-red-800 outlined-text-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl"> YOU</p>
+            </h1>
+            <h2 className="outlined-text-red text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">TO HIRE ME!</h2>
+          </div>
+        </div>
+      </main>
+    </div>
   );
 }
 
