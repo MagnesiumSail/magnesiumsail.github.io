@@ -12,118 +12,123 @@ export default function Home() {
       </header>
 
       {/* Main Section with 'Hire Me' Content */}
-      <main className="flex-grow bg-gray-200">
-        <div className="container mx-auto px-8 py-16 bg-slate-600 text-center">
-          <div className="flex justify-center">
-            <Image
-              src="/IndyYou.png"
-              alt="Hire Me"
-              className="animate-fadeIn"
-              width={500}
-              height={1080}
-            />
-          </div>
-          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-red-800 outlined-text-black mt-8">
-            I WANT <span className="whitespace-pre">YOU</span>
-          </h1>
-          <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-red-800 outlined-text-red">
-            TO HIRE ME!
-          </h2>
+      <main className="flex-grow bg-gray-200 p-4">
+        <div className="container mx-auto">
+          <div className="relative">
+            <div className="border-8 rounded border-red-700 outline-offset-4 border-spacing-36 p-8 bg-orange-100">
+              <div className="container mx-auto px-8 py-16 bg-orange-100 text-center border-8 rounded border-sky-700">
+                <div className="flex justify-center">
+                  <Image
+                    src="/IndyYou.png"
+                    alt="Hire Me"
+                    className="animate-fadeIn"
+                    width={500}
+                    height={1080}
+                  />
+                </div>
+                <h1 className="flex outlined-text-red flex justify-center text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+                  I WANT
+                  <p className="whitespace-pre text-red-800 outlined-text-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl"> YOU</p>
+                </h1>
+                <h2 className="outlined-text-red text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">TO HIRE ME!</h2>
 
 
-          {/* Snippets Section */}
-          <section className="container mx-auto px-8 py-16">
-            <div className="flex flex-col space-y-16">
-              {/* Snippet 1 */}
-              <div className="flex flex-col md:flex-row items-center">
-                <Image
-                  src="/snippet-image-1.png"
-                  alt="Snippet 1 Image"
-                  width={400}
-                  height={300}
-                  className="md:mr-8 mb-8 md:mb-0"
-                />
-                <p className="text-xl md:text-2xl text-white">
-                  I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
-                </p>
-              </div>
-              {/* Snippet 2 */}
-              <div className="flex flex-col md:flex-row-reverse items-center">
-                <Image
-                  src="/snippet-image-2.png"
-                  alt="Snippet 2 Image"
-                  width={400}
-                  height={300}
-                  className="md:ml-8 mb-8 md:mb-0"
-                />
-                <p className="text-xl md:text-2xl text-white">
-                  In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
-                </p>
-              </div>
-              {/* Snippet 3 */}
-              <div className="flex flex-col md:flex-row items-center">
-                <Image
-                  src="/snippet-image-3.png"
-                  alt="Snippet 3 Image"
-                  width={400}
-                  height={300}
-                  className="md:mr-8 mb-8 md:mb-0"
-                />
-                <p className="text-xl md:text-2xl text-white">
-                  My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
-                </p>
+                {/* Snippets Section */}
+                <section className="container mx-auto px-8 py-16">
+                  <div className="flex flex-col space-y-16">
+                    {/* Snippet 1 */}
+                    <div className="flex flex-col md:flex-row items-center">
+                      <Image
+                        src="/snippet-image-1.png"
+                        alt="Snippet 1 Image"
+                        width={400}
+                        height={300}
+                        className="md:mr-8 mb-8 md:mb-0"
+                      />
+                      <p className="text-xl md:text-2xl text-white">
+                        I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
+                      </p>
+                    </div>
+                    {/* Snippet 2 */}
+                    <div className="flex flex-col md:flex-row-reverse items-center">
+                      <Image
+                        src="/snippet-image-2.png"
+                        alt="Snippet 2 Image"
+                        width={400}
+                        height={300}
+                        className="md:ml-8 mb-8 md:mb-0"
+                      />
+                      <p className="text-xl md:text-2xl text-white">
+                        In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
+                      </p>
+                    </div>
+                    {/* Snippet 3 */}
+                    <div className="flex flex-col md:flex-row items-center">
+                      <Image
+                        src="/snippet-image-3.png"
+                        alt="Snippet 3 Image"
+                        width={400}
+                        height={300}
+                        className="md:mr-8 mb-8 md:mb-0"
+                      />
+                      <p className="text-xl md:text-2xl text-white">
+                        My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
+                      </p>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
-          </section>
+
+            {/* Projects Section */}
+            <section className="bg-gray-800 py-16">
+              <div className="container mx-auto px-8">
+                <h2 className="text-4xl text-white text-center mb-12">Featured Projects</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {/* Project 1 */}
+                  <div className="bg-slate-600 p-8 rounded-lg text-center">
+                    <h3 className="text-2xl text-white mb-4">Project One</h3>
+                    <p className="text-white mb-6">
+                      A description of your first project. What it does, the technologies used, and your role in it.
+                    </p>
+                    <a
+                      href="https://github.com/yourusername/project-one"
+                      className="text-red-600 underline"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                  {/* Project 2 */}
+                  <div className="bg-slate-600 p-8 rounded-lg text-center">
+                    <h3 className="text-2xl text-white mb-4">Project Two</h3>
+                    <p className="text-white mb-6">
+                      A description of your second project. Highlight the key features, the stack used, and any challenges you overcame.
+                    </p>
+                    <a
+                      href="https://github.com/yourusername/project-two"
+                      className="text-red-600 underline"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                  {/* Project 3 */}
+                  <div className="bg-slate-600 p-8 rounded-lg text-center">
+                    <h3 className="text-2xl text-white mb-4">Project Three</h3>
+                    <p className="text-white mb-6">
+                      A description of your third project. Focus on what makes it unique and your contributions.
+                    </p>
+                    <a
+                      href="https://github.com/yourusername/project-three"
+                      className="text-red-600 underline"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
-
-        {/* Projects Section */}
-        <section className="bg-gray-800 py-16">
-          <div className="container mx-auto px-8">
-            <h2 className="text-4xl text-white text-center mb-12">Featured Projects</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Project 1 */}
-              <div className="bg-slate-600 p-8 rounded-lg text-center">
-                <h3 className="text-2xl text-white mb-4">Project One</h3>
-                <p className="text-white mb-6">
-                  A description of your first project. What it does, the technologies used, and your role in it.
-                </p>
-                <a
-                  href="https://github.com/yourusername/project-one"
-                  className="text-red-600 underline"
-                >
-                  View on GitHub
-                </a>
-              </div>
-              {/* Project 2 */}
-              <div className="bg-slate-600 p-8 rounded-lg text-center">
-                <h3 className="text-2xl text-white mb-4">Project Two</h3>
-                <p className="text-white mb-6">
-                  A description of your second project. Highlight the key features, the stack used, and any challenges you overcame.
-                </p>
-                <a
-                  href="https://github.com/yourusername/project-two"
-                  className="text-red-600 underline"
-                >
-                  View on GitHub
-                </a>
-              </div>
-              {/* Project 3 */}
-              <div className="bg-slate-600 p-8 rounded-lg text-center">
-                <h3 className="text-2xl text-white mb-4">Project Three</h3>
-                <p className="text-white mb-6">
-                  A description of your third project. Focus on what makes it unique and your contributions.
-                </p>
-                <a
-                  href="https://github.com/yourusername/project-three"
-                  className="text-red-600 underline"
-                >
-                  View on GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </div>
   );
