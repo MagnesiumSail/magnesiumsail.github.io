@@ -29,52 +29,53 @@ export default function Home() {
           <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-red-800 outlined-text-red">
             TO HIRE ME!
           </h2>
-        </div>
 
-        {/* Snippets Section */}
-        <section className="container mx-auto px-8 py-16">
-          <div className="flex flex-col space-y-16">
-            {/* Snippet 1 */}
-            <div className="flex flex-col md:flex-row items-center">
-              <Image
-                src="/snippet-image-1.png"
-                alt="Snippet 1 Image"
-                width={400}
-                height={300}
-                className="md:mr-8 mb-8 md:mb-0"
-              />
-              <p className="text-xl md:text-2xl text-white">
-                I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
-              </p>
+
+          {/* Snippets Section */}
+          <section className="container mx-auto px-8 py-16">
+            <div className="flex flex-col space-y-16">
+              {/* Snippet 1 */}
+              <div className="flex flex-col md:flex-row items-center">
+                <Image
+                  src="/snippet-image-1.png"
+                  alt="Snippet 1 Image"
+                  width={400}
+                  height={300}
+                  className="md:mr-8 mb-8 md:mb-0"
+                />
+                <p className="text-xl md:text-2xl text-white">
+                  I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
+                </p>
+              </div>
+              {/* Snippet 2 */}
+              <div className="flex flex-col md:flex-row-reverse items-center">
+                <Image
+                  src="/snippet-image-2.png"
+                  alt="Snippet 2 Image"
+                  width={400}
+                  height={300}
+                  className="md:ml-8 mb-8 md:mb-0"
+                />
+                <p className="text-xl md:text-2xl text-white">
+                  In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
+                </p>
+              </div>
+              {/* Snippet 3 */}
+              <div className="flex flex-col md:flex-row items-center">
+                <Image
+                  src="/snippet-image-3.png"
+                  alt="Snippet 3 Image"
+                  width={400}
+                  height={300}
+                  className="md:mr-8 mb-8 md:mb-0"
+                />
+                <p className="text-xl md:text-2xl text-white">
+                  My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
+                </p>
+              </div>
             </div>
-            {/* Snippet 2 */}
-            <div className="flex flex-col md:flex-row-reverse items-center">
-              <Image
-                src="/snippet-image-2.png"
-                alt="Snippet 2 Image"
-                width={400}
-                height={300}
-                className="md:ml-8 mb-8 md:mb-0"
-              />
-              <p className="text-xl md:text-2xl text-white">
-                In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
-              </p>
-            </div>
-            {/* Snippet 3 */}
-            <div className="flex flex-col md:flex-row items-center">
-              <Image
-                src="/snippet-image-3.png"
-                alt="Snippet 3 Image"
-                width={400}
-                height={300}
-                className="md:mr-8 mb-8 md:mb-0"
-              />
-              <p className="text-xl md:text-2xl text-white">
-                My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
         {/* Projects Section */}
         <section className="bg-gray-800 py-16">
@@ -130,7 +131,7 @@ export default function Home() {
 
 
 
-      {/*<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+{/*<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing Lunge for the officers gun&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
