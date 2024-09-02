@@ -45,7 +45,7 @@ export default function Home() {
                         height={300}
                         className="md:mr-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-white">
+                      <p className="text-xl md:text-2xl text-black">
                         I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
                       </p>
                     </div>
@@ -58,7 +58,7 @@ export default function Home() {
                         height={300}
                         className="md:ml-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-white">
+                      <p className="text-xl md:text-2xl text-black">
                         In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
                       </p>
                     </div>
@@ -71,7 +71,7 @@ export default function Home() {
                         height={300}
                         className="md:mr-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-white">
+                      <p className="text-xl md:text-2xl text-black">
                         My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
                       </p>
                     </div>
