@@ -81,6 +81,7 @@ export default function Home() {
             </div>
 
             {/* Projects Section */}
+            <div className="py-8">
             <section className="bg-gray-800 py-16">
               <div className="container mx-auto px-8">
                 <h2 className="text-4xl text-white text-center mb-12">Featured Projects</h2>
@@ -127,6 +128,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
+            </div>
           </div>
         </div>
       </main>
