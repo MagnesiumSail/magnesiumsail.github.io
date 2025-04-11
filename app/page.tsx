@@ -39,39 +39,39 @@ export default function Home() {
                     {/* Snippet 1 */}
                     <div className="flex flex-col md:flex-row items-center">
                       <Image
-                        src="/snippet-image-1.png"
+                        src="/img/webpage.png"
                         alt="Snippet 1 Image"
-                        width={400}
-                        height={300}
+                        width={200}
+                        height={200}
                         className="md:mr-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-black">
+                      <p className="text-xl md:text-2xl text-black text-left">
                         I am a passionate software engineer with a strong interest in coding, particularly in algorithms and web development. I am constantly striving to improve my skills and learn new technologies.
                       </p>
                     </div>
                     {/* Snippet 2 */}
                     <div className="flex flex-col md:flex-row-reverse items-center">
                       <Image
-                        src="/snippet-image-2.png"
+                        src="/img/Boking.png"
                         alt="Snippet 2 Image"
-                        width={400}
+                        width={300}
                         height={300}
                         className="md:ml-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-black">
+                      <p className="text-xl md:text-2xl text-black text-right">
                         In addition to my love for coding, I enjoy various hobbies such as biking, video games, and creating animations. These activities fuel my creativity and inspire my work in technology.
                       </p>
                     </div>
                     {/* Snippet 3 */}
                     <div className="flex flex-col md:flex-row items-center">
                       <Image
-                        src="/snippet-image-3.png"
+                        src="/img/handshake.png"
                         alt="Snippet 3 Image"
-                        width={400}
-                        height={300}
+                        width={200}
+                        height={200}
                         className="md:mr-8 mb-8 md:mb-0"
                       />
-                      <p className="text-xl md:text-2xl text-black">
+                      <p className="text-xl md:text-2xl text-black text-left">
                         My goal is to leverage my skills and interests to develop innovative solutions and contribute to exciting projects. I'm eager to collaborate and make a positive impact in the tech industry.
                       </p>
                     </div>
