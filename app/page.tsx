@@ -35,7 +35,7 @@ export default function Home() {
 
 
                 {/* Snippets Section */}
-                <section className="container mx-auto px-8 py-16">
+                <section id="about" className="container mx-auto px-8 py-16">
                   <div className="flex flex-col space-y-16">
                     {/* Snippet 1 */}
                     <div className="flex flex-col md:flex-row items-center">
@@ -83,7 +83,7 @@ export default function Home() {
 
             {/* Projects Section */}
             <div className="py-8">
-            <section className="bg-gray-800 py-16">
+            <section id ="projects" className="bg-gray-800 py-16">
               <div className="container mx-auto px-8">
                 <h2 className="text-4xl text-white text-center mb-12">Featured Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
