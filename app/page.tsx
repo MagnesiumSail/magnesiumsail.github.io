@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -88,12 +89,12 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {/* Project 1 */}
                   <div className="bg-slate-600 p-8 rounded-lg text-center">
-                    <h3 className="text-2xl text-white mb-4">Project One</h3>
+                    <h3 className="text-2xl text-white mb-4">Quest Gang</h3>
                     <p className="text-white mb-6">
-                      A description of your first project. What it does, the technologies used, and your role in it.
+                    This project was one of my biggest endeavors. Our group of four collaborated to build a headless fantasy adventure game where players create characters, go on quests, and battle monsters using a secure API-driven backend. We implemented all core game logic in JavaScript, with a React frontend and MongoDB backend, ensuring users could interact via custom frontends or raw API calls.
                     </p>
                     <a
-                      href="https://github.com/yourusername/project-one"
+                      href="https://github.com/trdecker/QuestGangAPI"
                       className="text-red-600 underline"
                     >
                       View on GitHub
@@ -101,12 +102,12 @@ export default function Home() {
                   </div>
                   {/* Project 2 */}
                   <div className="bg-slate-600 p-8 rounded-lg text-center">
-                    <h3 className="text-2xl text-white mb-4">Project Two</h3>
+                    <h3 className="text-2xl text-white mb-4">Car Sales Website</h3>
                     <p className="text-white mb-6">
-                      A description of your second project. Highlight the key features, the stack used, and any challenges you overcame.
+                    This is my largest solo fullstack website project, built from the ground up using Node.js, Express, PostgreSQL, and PNPM for an example car sales platform. It runs a local server to populate car listings, includes an admin login system for creating and managing entries, and supports full sorting and filtering functionality to help users find exactly what they're looking for.
                     </p>
                     <a
-                      href="https://github.com/yourusername/project-two"
+                      href="https://github.com/MagnesiumSail/CarSalesWebsite"
                       className="text-red-600 underline"
                     >
                       View on GitHub
@@ -114,12 +115,12 @@ export default function Home() {
                   </div>
                   {/* Project 3 */}
                   <div className="bg-slate-600 p-8 rounded-lg text-center">
-                    <h3 className="text-2xl text-white mb-4">Project Three</h3>
+                    <h3 className="text-2xl text-white mb-4">Current WiP</h3>
                     <p className="text-white mb-6">
-                      A description of your third project. Focus on what makes it unique and your contributions.
+                      This is a small work-in-progress project that I am currently working on. It is a going to be a simple factory building game where players can build "factories", manage resources, and optimize production. The game is built using C#, but I its still very early in development.
                     </p>
                     <a
-                      href="https://github.com/yourusername/project-three"
+                      href="https://github.com/MagnesiumSail/FactoryBuilding"
                       className="text-red-600 underline"
                     >
                       View on GitHub
@@ -132,6 +133,12 @@ export default function Home() {
           </div>
         </div>
       </main>
+    {/* Full-width Footer with centered content */}
+    <header className="w-full bg-gray-800">
+        <div className="container mx-auto px-8">
+          <Footer />
+        </div>
+      </header>
     </div>
   );
 }
