@@ -26,6 +26,7 @@ export default function Home() {
                     width={500}
                     height={1080}
                   />
+                  {/* This is gross */}
                 </div>
                 <h1 className="flex outlined-text-red flex justify-center text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
                   I WANT
